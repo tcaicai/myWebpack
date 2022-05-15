@@ -1,0 +1,6 @@
+title = "Toml Example"
+[owner]
+name = "Tom Prestom-Werer"
+organization = "github"
+bio = "gihub cofounder & ceo\nlists tater tots and beer"
+dob = "1979-05-27"
