@@ -11,8 +11,11 @@ import Data from "./assets/data.xml";
 import Notes from "./assets/data.csv";
 
 import toml from "./assets/data.toml";
-import yaml from "./assets/data.yaml";
+// import yaml from "./assets/data.yaml";
 import json5 from "./assets/data.json5";
+
+// import _ from "lodash";
+import "./import";
 hello();
 
 const img = document.createElement("img");
@@ -47,7 +50,9 @@ console.log(Notes);
 
 console.log(toml.title);
 console.log(toml.owner.name);
-console.log(yaml.title);
-console.log(yaml.owner.name);
+// console.log(yaml.title);
+// console.log(yaml.owner.name);
 console.log(json5.title);
 console.log(json5.owner.name);
+
+// console.log("这里是index", _.join(["老虎", "狮子", "公鸡"], "--"));
